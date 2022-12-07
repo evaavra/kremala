@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: #2be28f;
+  background-image: url(../public/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -40,5 +42,22 @@
 
 #fL, #mLs, #lL{
   font-size: 70px;
-}      
+  color: whitesmoke;
+}
+
+#header{
+  color: whitesmoke;
+}
+
+.btn-info{
+  background-color: rebeccapurple;
+}
+
+.btn-danger{
+  background-color: crimson;
+}
+
+.btn-success{
+  background-color: chartreuse;
+}
 
