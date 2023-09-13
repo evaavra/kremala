@@ -6,7 +6,7 @@ export default function Drawing({ wrongAnswers}) {
         console.log("wrong answers" + wrongAnswers)
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
-        ctx.strokeStyle = "whitesmoke"
+        ctx.strokeStyle = "#0dcaf0"
         if(wrongAnswers === 0){
             ctx.clearRect(0, 0, canvas.width, canvas.height);
         }

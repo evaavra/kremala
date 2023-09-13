@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Rubik+Beastly&family=Sevillana&display=swap');
+
 .App {
   text-align: center;
   background-image: url(../public/background.jpg);
@@ -42,11 +44,14 @@
 
 #fL, #mLs, #lL{
   font-size: 70px;
-  color: whitesmoke;
+  color: #0dcaf0;
 }
 
 #header{
-  color: whitesmoke;
+  color: rgb(236, 10, 116);
+  font-family: 'Hanalei Fill', cursive;
+  /* border: chartreuse 5px solid; */
+  
 }
 
 .btn-info{
@@ -54,7 +59,7 @@
 }
 
 .btn-danger{
-  background-color: crimson;
+  background-color: rgb(236, 10, 116);
 }
 
 .btn-success{
